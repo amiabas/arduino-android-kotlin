@@ -1,0 +1,62 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ArduinoController" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/teal</item>
+        <item name="colorPrimaryVariant">@color/teal</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal</item>
+        <item name="colorSecondaryVariant">@color/teal</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.ArduinoController.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.ArduinoController.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.ArduinoController.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="TurnOnOffButtonTextStyle">
+        <item name="android:fontFamily">@font/sans_number_medium</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="color">@color/white</item>
+    </style>
+
+
+    <style name="TitleTextStyle">
+        <item name="android:fontFamily">@font/arial_black</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="color">@color/black</item>
+    </style>
+
+    <style name="DescriptionTextStyle">
+        <item name="android:fontFamily">@font/arial_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="color">@color/gray</item>
+    </style>
+
+    <style name="connectionButtonTextStyle">
+        <item name="android:fontFamily">@font/sans_number_light</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="color">@color/white</item>
+    </style>
+
+    <style name="HintTextStyle">
+        <item name="android:fontFamily">@font/sans_number_medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="color">@color/gray</item>
+    </style>
+
+</resources>

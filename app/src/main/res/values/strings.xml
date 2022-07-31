@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Arduino Controller</string>
+
+    <string name="app_name_persian">کنترلر آردینو</string>
+
+    <string name="turn_on_bluetooth">روشن کردن بلوتوث</string>
+    <string name="turn_off_bluetooth">خاموش کردن بلوتوث</string>
+    <string name="scan_bluetooth">یافتن دستگاه</string>
+    <string name="connect">اتصال</string>
+    <string name="device_connected">دستگاه متصل شده:</string>
+    <string name="continue_str">ادامه</string>
+
+    <string name="title_device_name">HC-05</string>
+
+    <string name="description_mac_address">00:11:22:33:FF:EE</string>
+    <string name="title_activity_main">کنترلر آردینو</string>
+    <string name="enter_code">وارد کردن دستور</string>
+    <string name="send">ارسال</string>
+
+    <string name="device_mac_address">Device Mac Address</string>
+    <string name="device_name">Device Name</string>
+
+</resources>
